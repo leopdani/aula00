@@ -14,4 +14,10 @@ public class Aluno{
      
    public int getid(){
       return this.id;
-   }}
+   }
+   public Aluno(){
+      this.nome = "";
+      this.id = -1;
+   }
+   
+}
